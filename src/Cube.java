@@ -26,12 +26,12 @@ public class Cube {
     }
 
     public int calculateSurfaceArea(){
-        int surfaceArea = 0;
+        int surfaceArea;
         surfaceArea = 6 * this.side * this.side;
         return surfaceArea;
     }
     public int calculateVolume(){
-        int volume = 0;
+        int volume;
         volume = side*side*side;
 
         return volume;
