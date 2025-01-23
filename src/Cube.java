@@ -3,7 +3,6 @@ public class Cube {
 
     public Cube(){
         this.side = 1;
-
     }
     public Cube(int i) {
         if(i<1){
